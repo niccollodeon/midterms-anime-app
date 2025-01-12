@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0c24;
+    font-family: "Lilita One", serif;
+
+} 
+
+.container-fluid {
+    height: 8rem;
+    
+}
+
+.nav-brand{
+    height: 20rem;
+    margin-left: 42.5%;
+}
+
+.navbar-nav{
+    gap: 50px;
+    margin-left: 30%;
+    text-shadow: 2px 2px 2px firebrick
+}
+
+.nav-item:nth-child(3) {
+    margin-left: 130%;
+}
+
+.nav-item:nth-child(1) {
+    margin-left: -220%;
+}
+
+
+.navbar {
+    border-bottom: 1px solid #c1436d;
+}
+
+
+.nav-link{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover{
+  color: #c1436d;
+}
+
+.table-section{
+    width: 100%;
+    height: 100vh;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+table{
+    background-color: #5d8aa8    ;
+    width: 90%;
+    height: auto;
+    margin-top: 2%;
+    border: 1px solid #c1436d;
+}
+
+td{
+    border: 1px solid #c1436d;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px firebrick;
+    font-size: 1.3rem;
+    height: 5rem;
+    background-color: white;
+}
+
+th{
+    border: 1px solid #c1436d;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px firebrick;
+    font-weight: 100;
+    text-align: center;
+}
+
+th:nth-child(odd), td:nth-child(odd){
+    background-color: #5d8aa8;
+    ;
+}
+
+th:nth-child(even), td:nth-child(even){
+    background-color: lightblue
+    ;
+}
+
+
+
+
+
+.edit-btn{
+    width: 60%;
+    height: 3.1rem;
+    border: none;
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+}
+
+.delete-btn{
+    width: 45%;
+    height: 3.1rem;
+    border: none;
+    border-radius: 10%;
+    background-color: firebrick;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0f0c24;
+    color: #c1436d;
+}
+
+
+.delete-btn:hover {
+    background-color: #0f0c24;
+    color: #c1436d;
+}
+
+
+#editUser {
+    margin-top: 12.5%;
+   }
+
+   #deleteUser{
+    margin-top: 12.5%;
+   }
+
+   #deleteUser .modal-title{
+    margin: 0 auto;
+    margin-left: 27.5%;
+  }
+
+  #deleteUser .modal-body h1{
+    text-align: center;
+    font-size: 1.55rem;
+  }
+
+  #deleteUser .modal-body p{
+    text-align: center;
+    font-size: 1rem;
+    color: firebrick;
+  }
+
+
+   #editUser .modal-title{
+    margin: 0 auto;
+    margin-left: 27.5%;
+  }
+
+  #editUser  .modal-body{
+    height: 20rem;
+  }
+  
+  .userEdit label{
+    font-size: 1.3rem;
+  }
+  
+  .userEdit input{
+    width: 90%;
+    height: 3rem;
+    padding: 10px;
+    margin-bottom: 2.5%;
+  }
+  
+  .userEdit select{
+    width: 90%;
+    height: 3rem;
+    padding: 10px;
+  }
+  
+  .userEdit label,input,select{
+    margin-left: 5%;
+  }
+  
+  .userEdit{
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    top: .5rem;
+  }
+
+  .modal-footer button {
+    width: 30%;
+  }
+  

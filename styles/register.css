@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0c24;
+    font-family: "Lilita One", serif;
+} 
+
+.container-fluid {
+    height: 8rem;
+    
+}
+
+.nav-brand{
+    height: 20rem;
+}
+
+.navbar-nav{
+    gap: 50px;
+    margin-left: 30%;
+}
+
+.nav-item:nth-child(4) {
+    margin-left: 130%;
+}
+
+.navbar {
+    border-bottom: 1px solid #c1436d;
+}
+
+
+.nav-link{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px firebrick
+}
+
+.nav-link:hover{
+    color: #c1436d;
+  }
+
+
+  .normal-breadcrumb {
+	height: 500px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+    background-image: url(./uploads/8245072.gif);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal-breadcrumb.second{
+    background-image: url(./uploads/1655305858-1655305858-violet-evergarden-in-the-woods-hd-live-wallpaper-for-pc.gif);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal__breadcrumb__text h2 {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 22px;
+    text-shadow: 2px 2px 2px firebrick
+}
+
+.normal__breadcrumb__text p {
+	color: #ffffff;
+	font-size: 2rem;
+	margin-bottom: 0;
+    text-shadow: 2px 2px 2px firebrick
+}
+
+.registration{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.register-form{
+    position: relative;
+    width: 50%;
+    height: auto;
+    background: black;
+    padding: 40px 35px 60px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px #272727;
+  }
+
+  .login-form{
+    position: relative;
+    width: 50%;
+    height: auto;
+    background: black;
+    padding: 40px 35px 60px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px #272727;
+  }
+
+  .login-form .text{
+    margin-top: 7.5%;
+  }
+
+  .register-form .text{
+    margin-top: 5%;
+  }
+
+
+  .text{
+    font-size: 30px;
+    color: #c7c7c7;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+
+  form{
+    margin-top: 40px;
+    
+  }
+  form .field{
+    margin-top: 20px;
+    display: flex;
+  }
+  .field .fas{
+    height: 50px;
+    width: 60px;
+    color: #868686;
+    font-size: 20px;
+    line-height: 50px;
+    border: 1px solid #444;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    background: linear-gradient(#333,#222);
+    margin: 0 auto;
+  }
+
+  .fas i{
+    margin-left: 27.5%;
+  }
+
+  .register-form.second{
+    background-image: url(./uploads/1340411.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0px) saturate(180%);
+  }
+
+  .login-form.second{
+    background-image: url(./uploads/guts-berserk-dark-3840x2160-19127.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0px) saturate(180%);
+  }
+
+  .blur-container{
+    backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E6E6FA;
+    margin-top: 2.5%;
+  }
+
+  .blur-container h1{
+    margin-bottom: 5%;
+  }
+
+  .blur-container p{
+    width: 50%;
+  }
+
+  .blur-container li {
+    font-size: 1.3rem;
+  }
+
+
+  .field input,form button{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 19px;
+    color: #868686;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #444;
+    caret-color: #339933;
+    background: linear-gradient(#333,#222);
+  }
+  input:focus{
+    color: #339933;
+    box-shadow: 0 0 5px rgba(0,255,0,.2),
+                inset 0 0 5px rgba(0,255,0,.1);
+    background: linear-gradient(#333933,#222922);
+    animation: glow .8s ease-out infinite alternate;
+  }
+  @keyframes glow {
+     0%{
+      border-color: #339933;
+      box-shadow: 0 0 5px rgba(0,255,0,.2),
+                  inset 0 0 5px rgba(0,0,0,.1);
+    }
+     100%{
+      border-color: #6f6;
+      box-shadow: 0 0 20px rgba(0,255,0,.6),
+                  inset 0 0 10px rgba(0,255,0,.4);
+    }
+  }
+  button{
+    margin-top: 30px;
+    border-radius: 5px!important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: #339933;
+    border: 1px solid #339933;
+    box-shadow: 0 0 5px rgba(0,255,0,.3),
+                0 0 10px rgba(0,255,0,.2),
+                0 0 15px rgba(0,255,0,.1),
+                0 2px 0 black;
+  }
+  .link{
+    margin-top: 25px;
+    color: #868686;
+  }
+  .link a{
+    color: #339933;
+    text-decoration: none;
+  }
+  .link a:hover{
+    text-decoration: underline;
+  }
+
+  .footer-container{
+	max-width: 1170px;
+    height: auto;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #0f0c24;
+    border-top: 1px solid #e91e63;
+    padding: 70px 0;
+    
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col:first-child{
+    margin-left: 10rem;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
