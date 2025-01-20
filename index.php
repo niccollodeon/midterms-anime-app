@@ -18,10 +18,10 @@ if (isset($_SESSION['login_success'])) {
                 title: "Login Successful",
                 text: "Welcome to your watchlist page!",
                 confirmButtonText: "OK",
-                confirmButtonColor: "gray",
+                confirmButtonColor: "green",
                 background: "#0e0d0d",
                 color: "white",
-                iconColor: "gray"
+                iconColor: "green"
             });
         });
     </script>';
@@ -38,10 +38,10 @@ if (isset($_SESSION['update_success'])) {
                 title: "Update Successful",
                 text: "Welcome to your watchlist page!",
                 confirmButtonText: "OK",
-                confirmButtonColor: "gray",
+                confirmButtonColor: "green",
                 background: "#0e0d0d",
                 color: "white",
-                iconColor: "gray"
+                iconColor: "green"
             });
         });
     </script>';
@@ -58,17 +58,17 @@ if (isset($_SESSION['update_error'])) {
                 title: "Update Error",
                 text: "Return to your Watchlist page!",
                 confirmButtonText: "OK",
-                confirmButtonColor: "gray",
+                confirmButtonColor: "green",
                 background: "#0e0d0d",
                 color: "white",
-                iconColor: "gray"
+                iconColor: "green"
             });
         });
     </script>';
   unset($_SESSION['update_error']);
 }
 
-// Sweet alert if login is successful
+// Sweet alert if add is successful
 if (isset($_SESSION['add_success'])) {
   echo '
     <script>
@@ -78,10 +78,10 @@ if (isset($_SESSION['add_success'])) {
                 title: "Anime Added Successfully",
                 text: "Welcome to your watchlist page!",
                 confirmButtonText: "OK",
-                confirmButtonColor: "gray",
+                confirmButtonColor: "green",
                 background: "#0e0d0d",
                 color: "white",
-                iconColor: "gray"
+                iconColor: "green"
             });
         });
     </script>';
